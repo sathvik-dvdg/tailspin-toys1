@@ -120,3 +120,4 @@ There is no Svelte/React layer. When a page genuinely needs client behaviour, ad
 - Minimize client-side JavaScript — the default is zero JS shipped
 - Import and use global CSS styles from layouts
 - Always include a `data-testid` on interactive elements (see `ui.instructions.md`)
+- When rendering game list cards, surface `game.starRating` in a compact text line without reworking the card layout; if the value is `null`, render `No rating yet` instead
