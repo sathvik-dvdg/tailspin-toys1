@@ -43,6 +43,7 @@ Refer to technology-specific instruction files:
 - Modern, clean UI with rounded corners and smooth transitions
 - Consistent spacing and visual hierarchy
 - Responsive design that works on mobile, tablet, and desktop
+- Catalog/game cards should surface the `game.starRating` field without redesigning the layout; show `Rating: X/5` for a numeric rating and `No rating yet` when the value is `null`
 
 ### Component Reusability
 
